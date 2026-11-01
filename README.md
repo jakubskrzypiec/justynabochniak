@@ -1,17 +1,21 @@
 # Justyna Bochniak — koncepcja strony
 
-Strona statyczna oparta na układzie MOTHI.form. Fonty: Libre Caslon Display i DM Sans. Paleta: off-white `#faf8f3`, beż `#eae3d9`, jasny błękit `#dce6ed`.
+Statyczna strona na bazie układu MOTHI.form. Fonty: Libre Caslon Display i DM Sans. Paleta: off-white, krem, beż i jasny błękit.
 
-Otwórz `index.html` albo uruchom dowolny serwer statyczny w katalogu projektu. Publikacja w GitHub Pages: gałąź `main`, katalog `/` (root). Bez procesu budowania.
+Uruchom dowolny serwer statyczny w katalogu projektu. GitHub Pages: gałąź main, katalog /, bez procesu budowania.
 
-## Materiały
+## Aktualny podgląd
 
-- Treść „O mnie”: tekst przesłany przez użytkownika z Instagrama Justyny.
-- Oferta: aktualne opisy usług na profilu https://www.instagram.com/justynabochniak_interiors/ oraz https://justynabochniak.pl/oferta/.
-- Logo: pobrane z publicznego profilu Facebook; oryginał w `assets/logo-facebook.jpg`, odwzorowanie wektorowe w `assets/logo.svg`.
-- Portret i portfolio: istniejąca strona https://justynabochniak.pl/. Zdjęcia portfolio są rzeczywistymi materiałami z witryny pracowni.
-- Hero i cztery przerywniki: koncepcje wygenerowane narzędziem image_gen; nie są realizacjami pracowni. Prompty w `IMAGE-PROMPTS.md`.
+- Hero: przezroczysty PNG znaku pracowni, nazwa i podpis bez planszy.
+- O mnie: tekst Justyny i wyśrodkowane miejsce na portret.
+- Portfolio: płynna karuzela kremowych miejsc na zdjęcia; logo na hover; zatrzymanie przy najechaniu, dotyku i fokusie. Strzałki przewijają, spacja wstrzymuje. Respektuje ograniczenie ruchu systemu.
+- Oferta: trzy kolumny Pakiet XXX z opisami i ceną do uzupełnienia.
+- Publikacje: trzy mniejsze, stonowane okładki i linki do publikacji w Werandzie.
+- Formularz demonstracyjny: bez wysyłki i bez otwierania poczty. Wymaga imienia, e-maila i wiadomości; informuje, że wiadomość nie została wysłana.
+- Wyśrodkowane karty Facebooka i Instagrama, czarna stopka.
 
-## Zachowanie
+## Źródła
 
-Menu mobilne, nawigacja sekcyjna, karuzela ze wstrzymywaniem i obsługą klawiatury, FAQ. Formularz otwiera program pocztowy z przygotowaną wiadomością do `justynabochniak@wp.pl`; nie wysyła jej automatycznie i nie korzysta z backendu. Wersja koncepcyjna ma `noindex,nofollow`.
+Tekst O mnie pochodzi z materiałów użytkownika. Logo odwzorowuje znak z publicznego Facebooka Justyny; oryginał: assets/logo-facebook.jpg. Plik assets/logo-transparent.png jest przezroczystą rasteryzacją znaku. Okładki i publikacje: https://justynabochniak.pl/publikacje/.
+
+Hero i cztery przerywniki to koncepcje utworzone przez image_gen, nie realizacje pracowni. Prompty: IMAGE-PROMPTS.md. Wersja koncepcyjna ma noindex,nofollow.
