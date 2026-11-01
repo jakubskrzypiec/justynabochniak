@@ -15,4 +15,3 @@ Otwórz `index.html` albo uruchom dowolny serwer statyczny w katalogu projektu. 
 ## Zachowanie
 
 Menu mobilne, nawigacja sekcyjna, karuzela ze wstrzymywaniem i obsługą klawiatury, FAQ. Formularz otwiera program pocztowy z przygotowaną wiadomością do `justynabochniak@wp.pl`; nie wysyła jej automatycznie i nie korzysta z backendu. Wersja koncepcyjna ma `noindex,nofollow`.
-

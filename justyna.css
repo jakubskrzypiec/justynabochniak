@@ -1,0 +1,25 @@
+/* Brand adaptation; original MOTHI.form layout and typography are retained. */
+:root{--paper:#faf8f3;--sand:#e9e2d7;--line:#d8d2c8;--wine:#d9e5ef;--ink:#343531}
+::selection{background:#d6e3ef;color:var(--ink)}
+.header .brand{width:55px}.header .brand img{mix-blend-mode:screen}
+.header.is-scrolled,.header.menu-open{background:var(--paper)}
+.header.is-scrolled .brand img,.header.menu-open .brand img{mix-blend-mode:multiply}
+.hero-overlay{background:linear-gradient(180deg,#252b302b,transparent 28%,#252b300d 55%,#252b3050)}
+.hero-identity{position:absolute;inset:22% 5% auto;display:flex;flex-direction:column;align-items:center;text-align:center;color:white;text-shadow:0 2px 25px #20262270}
+.hero-identity img{width:150px;height:150px;mix-blend-mode:screen;filter:invert(1);margin-bottom:24px}
+.hero-name{font-family:var(--heading);font-size:clamp(40px,5.6vw,86px);line-height:1.1;letter-spacing:.015em;text-transform:uppercase}
+.hero-profession{font-size:11px;letter-spacing:.38em;margin-top:18px}
+.hero-copy{left:var(--pad);right:var(--pad)}.hero-buttons{justify-content:center}
+.about-layout{height:auto;min-height:620px}.about-editorial{justify-content:flex-start}.about-copy p{line-height:1.8;font-size:14px}.about-copy p+p{margin-top:18px}.about-photo img{object-fit:cover;object-position:center;max-height:660px}.about-photo{transform:none;height:auto}
+.offer,.contact{background:#eae3d9}.social-v4{background:var(--paper)}
+.button-wine{color:var(--ink);background:#d9e5ef}.button-wine:hover{background:#c8dbe9}
+.project-photo{width:100%;height:100%;object-fit:cover;transition:transform .6s,filter .4s}
+.project-link{display:block}.project-link:hover .project-photo,.project-link:focus-visible .project-photo{transform:scale(1.04);filter:brightness(.72)}
+.project-hover-logo{mix-blend-mode:screen;filter:invert(1);width:80px;height:80px}
+.project-link:focus-visible .project-hover-logo{opacity:1;transform:none}
+.social-card-front{background:#e2eaf1}.social-card-back{background:#ede5d9}.social-card-bottom>span:first-child{font-size:6px}
+.social-buttons a{border-color:var(--line);background:transparent}.social-buttons a:hover{background:#e2eaf1}
+.location-value{font-size:12px!important;letter-spacing:0!important}.contact-email{font-size:clamp(16px,1.6vw,23px);overflow-wrap:anywhere}
+.footer{background:#dce6ed;color:var(--ink)}.footer .brand img{filter:none;mix-blend-mode:multiply}.footer .brand{width:65px}.footer-bottom,.footer .back-top{border-color:#34353140}
+@media(max-width:1000px){.about-layout{min-height:590px}.about-copy p{font-size:13px}}
+@media(max-width:680px){.header .brand{width:44px}.hero-identity{top:26%;left:6%;right:6%}.hero-identity img{width:115px;height:115px;margin-bottom:25px}.hero-name{font-size:42px}.hero-profession{font-size:8px;letter-spacing:.3em}.hero-buttons{flex-wrap:wrap}.about-layout{min-height:0}.about-photo{height:min(116vw,600px)}.about-copy p{font-size:14px}.social-card-bottom>span:first-child{font-size:5px}.footer .brand{width:60px}.contact-email{font-size:18px}.interlude-copy h2{font-size:23px}}
